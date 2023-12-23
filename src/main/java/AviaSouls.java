@@ -61,7 +61,7 @@ public class AviaSouls {
                 }
             }
         }
-        TicketTimeComparator comparator1 = new TicketTimeComparator();
+
         Arrays.sort(result, comparator);
         return result;
     }
